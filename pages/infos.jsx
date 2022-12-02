@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Link from 'next/link';
 import styles from "../styles/Infos.module.css"
 import Head from 'next/head';
+import CheatCode from '../components/CheatCode';
 const Infos = () => {
+
     return (
         <div>
             <Head>
@@ -112,6 +114,7 @@ const Infos = () => {
                     </div>
                 </div>
             </div>
+            <CheatCode />
         </div >
     );
 };

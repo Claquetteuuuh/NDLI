@@ -186,24 +186,7 @@ const PhaserGame = () => {
       }
     })
 
-    let ndli = ['n', 'd', 'l', 'i'];
-
-    const [ndliCode, setNdliCode] = useState(0)
-    document.addEventListener('keydown', function (e) {
-      var requiredKey = ndli[ndliCode];
     
-      if (e.key == requiredKey) {
-    
-        setNdliCode(ndliCode+1);
-    
-        if (ndliCode == ndli.length) {
-          
-          setNdliCode(0)          
-        }
-      } else {
-        setNdliCode(0)          
-      }
-    });
 
 
     return (
