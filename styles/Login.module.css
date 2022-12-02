@@ -1,0 +1,14 @@
+.body{
+    margin:0;
+    padding: 0;
+    background-color: #6600FF;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    text-align: center;
+    color: white;
+
+}
+

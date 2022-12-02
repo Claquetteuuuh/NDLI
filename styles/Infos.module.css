@@ -1,0 +1,227 @@
+.main {
+    display: grid;
+    height:125%;
+    grid-template-rows: 15vh auto;
+    grid-template-areas:
+        " header "
+        " content1 "    ;
+}
+
+/*header*/
+#header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 20vw 20vw 17vw 25vw auto;
+    background-color: #462D8B;
+    grid-template-areas:
+        "logo p1 p2 p3 p4";
+}
+
+#p1 {
+    grid-area: p1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p1 p {
+    color: white;
+}
+
+#p2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: p2;
+    padding: 0;
+}
+
+.boitePurple:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6600FF;
+    width: 165px;
+    height: 45px;
+}
+
+.p {
+    text-align: center;
+    padding-left: 0px;
+    color: white;
+}
+
+#p3 {
+    grid-area: p3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p3 p {
+    color: white;
+}
+
+.content1 {
+    grid-area: content1;
+    background-color: rgb(129, 129, 234);
+    display: grid;
+    grid-template-columns: 1fr,1fr; 
+    grid-template-rows: repeat(1fr,5);
+    grid-template-areas: 
+        " titre titre "
+        " t1 t2"
+        "t1 t3"
+        "t4 t5"
+        " t6 t5";
+}
+
+.titre {
+    grid-area: titre;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+
+.t1 {
+    grid-area:t1;
+    grid-template-rows: 1fr 3fr ;
+    grid-template-areas: 
+    " tete "
+    " contenu";
+}
+.tete1{
+    grid-area:tete;
+    background-color: aqua;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.6em;
+
+}
+.contenu1{
+    grid-area: contenu;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.2em;
+    background-color: rgb(129, 129, 234);
+}
+.t2 {
+    grid-area:t2;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    " tete "
+    " contenu";
+}
+.tete2{
+    grid-area:tete;
+    background-color: aqua;
+    border-style: solid;
+    border-color: white;
+    font-size: 1.6em;
+
+}
+.contenu2{
+    grid-area: contenu;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.2em;
+    background-color: rgb(129, 129, 234);
+}
+.contenu1{
+    grid-area: contenu;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.2em;
+    background-color: rgb(129, 129, 234);
+}
+.t3{
+    grid-area:t3;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    " tete "
+    " contenu";
+}
+.tete3{
+    grid-area:tete;
+    background-color: aqua;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.6em;
+
+}
+.contenu3{
+    grid-area: contenu;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.2em;
+    background-color: rgb(129, 129, 234);
+}
+.t4{
+    grid-area:t4;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    " tete "
+    " contenu";
+}
+.tete4{
+    grid-area:tete;
+    background-color: aqua;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.6em;
+
+}
+.contenu4{
+    grid-area: contenu;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.2em;
+    background-color: rgb(129, 129, 234);
+}
+.t5{
+    grid-area:t5;
+    grid-template-rows: 1fr 2fr ;
+    grid-template-areas: 
+    " tete "
+    " contenu";
+}
+.tete5{
+    grid-area:tete;
+    background-color: aqua;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.6em;
+
+}
+.contenu5{
+    grid-area: contenu;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.2em;
+    background-color: rgb(129, 129, 234);
+}
+.t6{
+    grid-area:t6;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    " tete "
+    " contenu";
+}
+.tete6{
+    grid-area:tete;
+    background-color: aqua;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.6em;
+
+}
+.contenu6{
+    grid-area: contenu;
+    border-style: solid;
+    border-color: white ;
+    font-size: 1.2em;
+    background-color: rgb(129, 129, 234);
+}
+

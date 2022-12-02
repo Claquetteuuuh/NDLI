@@ -1,0 +1,28 @@
+.container{
+    cursor: none;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.container h1{
+    text-align: center;
+
+}
+.canva{
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.won{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
